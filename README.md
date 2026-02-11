@@ -35,7 +35,7 @@ Join this file with ESCI-S product metadata via `asin`. Use `price_synthetic` wh
 | column | type | description |
 |---|---:|---|
 | `asin` | string | Product identifier shared with ESCI / ESCI-S |
-| `price_synthetic` | float or empty | Synthetic price **only for products whose original `price` is missing**; empty otherwise |
+| `price_synthetic` | float or empty | Synthetic price only for products whose original `price` is missing; empty otherwise |
 
 **Notes**
 - Product text and other metadata are not duplicated here. They are available in ESCI-S and can be mapped using `asin`.
